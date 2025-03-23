@@ -5,10 +5,10 @@ const Header = ({ editing, setEditing }) => {
     return (
         <header>
             <div className="logo-section">
-                <img src="./public/imgs/CIALOGO.svg" width="70" alt="ERROR" />
+                <img src="/imgs/CIALOGO.svg" width="70" alt="ERROR" />
 
                 <div className="input-field">
-                    <img src="./public/imgs/search.svg" alt="" width="30" />
+                    <img src="/imgs/search.svg" alt="" width="30" />
                     <input type="text" placeholder="Search" id="searchInput" />
                     <div id="clearButton">&times;</div>
                 </div>
