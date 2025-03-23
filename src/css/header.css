@@ -1,0 +1,215 @@
+header
+{
+    display: flex;
+    flex-direction: column;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+    padding-inline: 50px;
+    padding-bottom: 10px;
+
+    background: white;
+    border-radius: 0 0 13px 13px;
+
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.lcr-a
+{
+    font-family: heading;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.logo-section
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-block: 20px;
+}
+
+.input-field
+{
+    width: 40%;
+    display: flex;
+    position: relative;
+}
+
+.input-field img
+{
+    position: absolute;
+    z-index: 10000;
+    left: 17px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+input[type="text"]
+{
+    width: 100%;
+
+    padding-left: 65px;
+    padding-right: 50px;
+    padding-block: 10px;
+
+    font-size: 25px;
+
+    border-radius: 5px;
+    outline: 1px solid var(--gray-300);
+}
+
+#clearButton
+{
+    position: absolute;
+    right: 10px;
+    top: 42%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 55px;
+    background: none;
+    border: none;
+    display: none;
+    color: #cbd5e0;
+}
+
+hr
+{
+    height: 2px;
+    background-color: var(--gray-300);
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+header > nav
+{
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    gap: 25px;
+}
+
+nav > a
+{
+    padding-block: 10px;
+    padding-inline: 15px;
+
+    border-radius: 5px;
+    font-size: 22px;
+
+    position: relative;
+    z-index: 1;
+    transition: color 200ms ease;
+}
+
+nav > a:hover
+{
+    background: var(--gray-300);
+}
+
+.nav-indicator
+{
+    position: absolute;
+    background: var(--gray-300);
+    transition: all 200ms ease;
+    z-index: 0;
+    border-radius: 5px;
+}
+
+.editing-container
+{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.editing-container > div
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;}
+
+.editing-container > div > span
+{
+    font-size: 25px;
+    font-weight: 500;
+    width: 6.5vw;
+    text-align: right;
+}
+
+
+
+
+
+
+/* FOR THE SWITCH EDITING/READONLY */
+
+.switch
+{
+    font-size: 25px;
+    position: relative;
+    display: inline-block;
+    width: 3.5em;
+    height: 2em;
+}
+
+/* Hide default HTML checkbox */
+.switch input
+{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider
+{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    border: 1px solid #adb5bd;
+    transition: .4s;
+    border-radius: 30px;
+}
+
+.slider:before
+{
+    position: absolute;
+    content: "";
+    height: 1.4em;
+    width: 1.4em;
+    border-radius: 20px;
+    left: 0.27em;
+    bottom: 0.25em;
+    background-color: #adb5bd;
+    transition: .4s;
+}
+
+input:checked + .slider
+{
+    background-color: #007bff;
+    border: 1px solid #007bff;
+}
+
+input:focus + .slider
+{
+    box-shadow: 0 0 1px #007bff;
+}
+
+input:checked + .slider:before
+{
+    transform: translateX(1.4em);
+    background-color: #fff;
+}
