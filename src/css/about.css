@@ -1,0 +1,65 @@
+#about
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#about .title
+{
+    margin: 19vh 0 30vh 0;
+}
+
+#about .title h1
+{
+    font-size: 120px;
+    font-weight: 900;
+}
+
+#about .title h2
+{
+    font-size: 70px;
+    font-weight: 900;
+}
+
+#about footer
+{
+    width: 100%;
+    height: 80vh;
+
+    overflow-y: auto;
+    padding: 0 3vw 0 1vw;
+}
+
+footer .title > *
+{
+    text-align: center;
+}
+
+footer > div
+{
+    margin-bottom: 15vh;
+}
+
+#about footer h2:not(.title h2)
+{
+    font-size: 60px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+#about footer li, #about footer p:not(.title p)
+{
+    font-size: 38px;
+    line-height: 1.8;
+}
+
+#about :is(ul,ol)
+{
+    margin-top: 25px;
+}
+
+#about footer li
+{
+    margin-top: 10px;
+    margin-left: 50px;
+}

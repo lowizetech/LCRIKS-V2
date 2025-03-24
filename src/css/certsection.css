@@ -1,0 +1,63 @@
+#certificates
+{
+	padding-inline: 30px;
+}
+
+#certificates .boxes-container
+{
+	width: 100%;
+	padding: 10px 30px 10px 10px;
+	margin-left: 30px;
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 40px;
+	align-items: start;
+	max-height: 70vh;
+	border-radius: 10px;
+	overflow-y: auto;
+}
+
+.boxes-container .box
+{
+	width: 100%;
+	min-height: 200px;
+	border-radius: 10px;
+	box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+	padding: 10px;
+	background: white;
+
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	transition: transform 200ms ease-in-out;
+}
+
+.box:hover
+{
+	cursor: pointer;
+	transform: scale(1.03);
+}
+
+.box:active
+{
+	cursor: grabbing;
+	transform: scale(0.97);
+}
+
+.box > div :is(h1,p)
+{
+	text-align: left;
+}
+
+.box h1
+{
+	font-size: 35px;
+	font-weight: 900;
+}
+
+.box p
+{
+	font-size: 21px;
+}

@@ -10,20 +10,165 @@
         },
         {
           "type": "p",
-          "text": "test edit  tests testestestes"
+          "text": "A petition for correction is a formal request submitted to the Local Civil Registry Office for the amendment, registration, or correction of civil documents. It addresses discrepancies in personal records such as birth, marriage, or death certificates in compliance with the Civil Registry Laws of the Philippines."
+        },
+        {
+          "type": "h2",
+          "text": "📄 COMMON TYPES OF PETITIONS"
         },
         {
           "type": "ul",
           "items": [
-            "Item 1",
-            "Item 2",
-            "Item 3"
+            "Correction of clerical or typographical errors",
+            "Change of first name or nickname",
+            "Legitimation of a child",
+            "Supplemental entry for missing data",
+            "Late registration of civil events"
           ]
+        },
+        {
+          "type": "h2",
+          "text": "📌 GENERAL REQUIREMENTS"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Duly accomplished petition form",
+            "Certified true copy of the civil registry document",
+            "Valid government-issued ID",
+            "Supporting documents (e.g., school records, baptismal certificate)",
+            "Affidavit of discrepancy (if applicable)",
+            "Notarized authorization letter (for representatives)",
+            "Processing fee receipt"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "🗓 PROCESSING TIME"
+        },
+        {
+          "type": "p",
+          "text": "Processing times vary with the type of petition, typically ranging from 2 to 3 months due to verification and evaluation procedures."
+        },
+        {
+          "type": "h2",
+          "text": "🔄 STEPS TO FILE A PETITION"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Consult the Civil Registrar for the specific petition type.",
+            "Complete and gather all required documents.",
+            "Submit the petition at the Local Civil Registry Office.",
+            "Undergo review and evaluation of the submitted documents.",
+            "Fulfill any publication requirements if needed.",
+            "Receive approval and issuance of the corrected document."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "ℹ️ IMPORTANT REMINDERS"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "All supporting documents must be authentic and consistent.",
+            "Some petitions may require court approval for significant corrections.",
+            "Fees and processing times can vary depending on local policies."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For further inquiries, clients may visit the Local Civil Registry Office or contact the municipal office."
         }
       ]
     },
     {
       "id": "2",
+      "id_name": "court_decree",
+      "content": [
+        {
+          "type": "h1",
+          "text": "COURT DECREE"
+        },
+        {
+          "type": "p",
+          "text": "A court decree is an official judicial order that impacts civil records and may require subsequent updates to birth, marriage, or death certificates. It is issued after a legal proceeding and is integral to enforcing decisions that affect personal status or civil documentation."
+        },
+        {
+          "type": "h2",
+          "text": "🔍 OVERVIEW"
+        },
+        {
+          "type": "p",
+          "text": "Court decrees provide a legally binding resolution on matters concerning personal records, including amendments and judicial determinations on civil status."
+        },
+        {
+          "type": "h2",
+          "text": "📌 GENERAL REQUIREMENTS"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Certified copy of the court decree",
+            "Relevant supporting legal documents",
+            "Valid government-issued identification",
+            "Application form as required by the LCRO",
+            "Processing fee receipt"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "🗓 PROCESSING TIME"
+        },
+        {
+          "type": "p",
+          "text": "The processing period generally depends on the complexity of the decree and may range from several weeks to a few months."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "id_name": "legitimations",
+      "content": [
+        {
+          "type": "h1",
+          "text": "LEGITIMATIONS"
+        },
+        {
+          "type": "p",
+          "text": "Legitimation is the legal process through which a child born out of wedlock is recognized as legitimate under the law. This process involves formal proceedings and documentation in accordance with Philippine civil law."
+        },
+        {
+          "type": "h2",
+          "text": "📄 KEY DETAILS"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Formal petition to the LCRO",
+            "Submission of supporting evidence (e.g., affidavits, court orders)",
+            "Compliance with legal requirements set forth by civil law"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "📌 GENERAL REQUIREMENTS"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Duly accomplished legitimation form",
+            "Certified birth certificate of the child",
+            "Court order or affidavit supporting legitimation",
+            "Valid IDs of the petitioner and relevant parties",
+            "Processing fee receipt"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
       "id_name": "birth",
       "content": [
         {
@@ -32,20 +177,34 @@
         },
         {
           "type": "p",
-          "text": "Shrine sunglasses systemic apophenia cardboard industrial grade chrome office construct urban meta. Boy grenade rain man engine savant wristwatch bicycle military-grade. Range-rover Legba carbon assassin fetishism computer crypto. Man free-market camera alcohol paranoid augmented reality-space beef noodles RAF corporation A.I. physical otaku office katana. Spook fetishism refrigerator tiger-team youtube A.I. smart-sprawl computer apophenia systema chrome woman physical shoes drugs. Drone physical computer corporation denim sign office post-alcohol euro-pop bridge. Semiotics corrupted human refrigerator vehicle papier-mache convenience store numinous monofilament tube sprawl marketing free-market long-chain hydrocarbons tiger-team A.I. boat. Realism corrupted narrative nodal point BASE jump spook DIY gang San Francisco neural-space dissident soul-delay. Stimulate monofilament systema jeans tanto nodal point motion pre-construct corrupted garage office meta."
+          "text": "Form 1A Birth is used to register and update birth records. It captures essential information such as the full name, date and place of birth, and parentage details, ensuring legal recognition and consistency of birth data."
+        },
+        {
+          "type": "h2",
+          "text": "📌 GENERAL REQUIREMENTS"
         },
         {
           "type": "ul",
           "items": [
-            "Item 1",
-            "Item 2",
-            "Item 3"
+            "Completed registration form",
+            "Certified copy of the hospital birth record",
+            "Valid government-issued IDs of the parents",
+            "Affidavit of discrepancy (if corrections are needed)",
+            "Processing fee receipt"
           ]
+        },
+        {
+          "type": "h2",
+          "text": "🗓 PROCESSING TIME"
+        },
+        {
+          "type": "p",
+          "text": "The processing time typically ranges from 1 to 2 months, depending on the volume of applications and required verifications."
         }
       ]
     },
     {
-      "id": "3",
+      "id": "5",
       "id_name": "death",
       "content": [
         {
@@ -54,20 +213,34 @@
         },
         {
           "type": "p",
-          "text": "Shrine sunglasses systemic apophenia cardboard industrial grade chrome office construct urban meta. Boy grenade rain man engine savant wristwatch bicycle military-grade. Range-rover Legba carbon assassin fetishism computer crypto. Man free-market camera alcohol paranoid augmented reality-space beef noodles RAF corporation A.I. physical otaku office katana. Spook fetishism refrigerator tiger-team youtube A.I. smart-sprawl computer apophenia systema chrome woman physical shoes drugs. Drone physical computer corporation denim sign office post-alcohol euro-pop bridge. Semiotics corrupted human refrigerator vehicle papier-mache convenience store numinous monofilament tube sprawl marketing free-market long-chain hydrocarbons tiger-team A.I. boat. Realism corrupted narrative nodal point BASE jump spook DIY gang San Francisco neural-space dissident soul-delay. Stimulate monofilament systema jeans tanto nodal point motion pre-construct corrupted garage office meta."
+          "text": "Form 2A Death is used for the registration and update of death records. It documents the essential details of the deceased, including the cause and date of death, ensuring accuracy in the official civil registry."
+        },
+        {
+          "type": "h2",
+          "text": "📌 GENERAL REQUIREMENTS"
         },
         {
           "type": "ul",
           "items": [
-            "Item 1",
-            "Item 2",
-            "Item 3"
+            "Duly accomplished death registration form",
+            "Certified copy of the hospital or medico-legal report",
+            "Valid identification of the informant",
+            "Supporting documents (e.g., death certificate from a medical facility)",
+            "Processing fee receipt"
           ]
+        },
+        {
+          "type": "h2",
+          "text": "🗓 PROCESSING TIME"
+        },
+        {
+          "type": "p",
+          "text": "Processing is generally completed within 1 to 2 months after submission, subject to verification of supporting documents."
         }
       ]
     },
     {
-      "id": "4",
+      "id": "6",
       "id_name": "marriage",
       "content": [
         {
@@ -76,20 +249,34 @@
         },
         {
           "type": "p",
-          "text": "Shrine sunglasses systemic apophenia cardboard industrial grade chrome office construct urban meta. Boy grenade rain man engine savant wristwatch bicycle military-grade. Range-rover Legba carbon assassin fetishism computer crypto. Man free-market camera alcohol paranoid augmented reality-space beef noodles RAF corporation A.I. physical otaku office katana. Spook fetishism refrigerator tiger-team youtube A.I. smart-sprawl computer apophenia systema chrome woman physical shoes drugs. Drone physical computer corporation denim sign office post-alcohol euro-pop bridge. Semiotics corrupted human refrigerator vehicle papier-mache convenience store numinous monofilament tube sprawl marketing free-market long-chain hydrocarbons tiger-team A.I. boat. Realism corrupted narrative nodal point BASE jump spook DIY gang San Francisco neural-space dissident soul-delay. Stimulate monofilament systema jeans tanto nodal point motion pre-construct corrupted garage office meta."
+          "text": "Form 3A Marriage registers and updates marriage records, including information on the contracting parties, marriage date, and location. The form ensures that marital status is accurately documented for legal and administrative purposes."
+        },
+        {
+          "type": "h2",
+          "text": "📌 GENERAL REQUIREMENTS"
         },
         {
           "type": "ul",
           "items": [
-            "Item 1",
-            "Item 2",
-            "Item 3"
+            "Completed marriage registration form",
+            "Certified copy of the marriage contract or certificate",
+            "Valid IDs of both spouses",
+            "Supporting documents (e.g., community or church records)",
+            "Processing fee receipt"
           ]
+        },
+        {
+          "type": "h2",
+          "text": "🗓 PROCESSING TIME"
+        },
+        {
+          "type": "p",
+          "text": "The processing time for marriage records is usually between 1 to 2 months, depending on document verification."
         }
       ]
     },
     {
-      "id": "5",
+      "id": "7",
       "id_name": "mun_id",
       "content": [
         {
@@ -98,20 +285,26 @@
         },
         {
           "type": "p",
-          "text": "Shrine sunglasses systemic apophenia cardboard industrial grade chrome office construct urban meta. Boy grenade rain man engine savant wristwatch bicycle military-grade. Range-rover Legba carbon assassin fetishism computer crypto. Man free-market camera alcohol paranoid augmented reality-space beef noodles RAF corporation A.I. physical otaku office katana. Spook fetishism refrigerator tiger-team youtube A.I. smart-sprawl computer apophenia systema chrome woman physical shoes drugs. Drone physical computer corporation denim sign office post-alcohol euro-pop bridge. Semiotics corrupted human refrigerator vehicle papier-mache convenience store numinous monofilament tube sprawl marketing free-market long-chain hydrocarbons tiger-team A.I. boat. Realism corrupted narrative nodal point BASE jump spook DIY gang San Francisco neural-space dissident soul-delay. Stimulate monofilament systema jeans tanto nodal point motion pre-construct corrupted garage office meta."
+          "text": "The Municipal ID of Lala serves as an official identification document issued by the local government. It provides a reliable means of verifying a resident's identity and is often used in accessing local services and benefits."
+        },
+        {
+          "type": "h2",
+          "text": "📌 ELIGIBILITY & REQUIREMENTS"
         },
         {
           "type": "ul",
           "items": [
-            "Item 1",
-            "Item 2",
-            "Item 3"
+            "Proof of residency in Lala, Philippines",
+            "Valid government-issued identification",
+            "Completed application form",
+            "Supporting documents (e.g., utility bills, voter’s ID)",
+            "Processing fee receipt"
           ]
         }
       ]
     },
     {
-      "id": "6",
+      "id": "8",
       "id_name": "pic_id",
       "content": [
         {
@@ -120,36 +313,20 @@
         },
         {
           "type": "p",
-          "text": "Shrine sunglasses systemic apophenia cardboard industrial grade chrome office construct urban meta. Boy grenade rain man engine savant wristwatch bicycle military-grade. Range-rover Legba carbon assassin fetishism computer crypto. Man free-market camera alcohol paranoid augmented reality-space beef noodles RAF corporation A.I. physical otaku office katana. Spook fetishism refrigerator tiger-team youtube A.I. smart-sprawl computer apophenia systema chrome woman physical shoes drugs. Drone physical computer corporation denim sign office post-alcohol euro-pop bridge. Semiotics corrupted human refrigerator vehicle papier-mache convenience store numinous monofilament tube sprawl marketing free-market long-chain hydrocarbons tiger-team A.I. boat. Realism corrupted narrative nodal point BASE jump spook DIY gang San Francisco neural-space dissident soul-delay. Stimulate monofilament systema jeans tanto nodal point motion pre-construct corrupted garage office meta."
+          "text": "Picture ID is a visual identification document used to verify a client’s identity. It includes a recent photograph and relevant personal data to assist in accurate record keeping and secure service delivery."
+        },
+        {
+          "type": "h2",
+          "text": "📌 GENERAL REQUIREMENTS"
         },
         {
           "type": "ul",
           "items": [
-            "Item 1",
-            "Item 2",
-            "Item 3"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "7",
-      "id_name": "about",
-      "content": [
-        {
-          "type": "h1",
-          "text": "ALL ABOUT LALA LCRO"
-        },
-        {
-          "type": "p",
-          "text": "Shrine sunglasses systemic apophenia cardboard industrial grade chrome office construct urban meta. Boy grenade rain man engine savant wristwatch bicycle military-grade. Range-rover Legba carbon assassin fetishism computer crypto. Man free-market camera alcohol paranoid augmented reality-space beef noodles RAF corporation A.I. physical otaku office katana. Spook fetishism refrigerator tiger-team youtube A.I. smart-sprawl computer apophenia systema chrome woman physical shoes drugs. Drone physical computer corporation denim sign office post-alcohol euro-pop bridge. Semiotics corrupted human refrigerator vehicle papier-mache convenience store numinous monofilament tube sprawl marketing free-market long-chain hydrocarbons tiger-team A.I. boat. Realism corrupted narrative nodal point BASE jump spook DIY gang San Francisco neural-space dissident soul-delay. Stimulate monofilament systema jeans tanto nodal point motion pre-construct corrupted garage office meta."
-        },
-        {
-          "type": "ul",
-          "items": [
-            "Item 1",
-            "Item 2",
-            "Item 3"
+            "Recent passport-size photograph",
+            "Completed identification form",
+            "Valid government-issued ID for verification",
+            "Supporting documents (if applicable)",
+            "Processing fee receipt"
           ]
         }
       ]

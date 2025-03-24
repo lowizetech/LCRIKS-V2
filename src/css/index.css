@@ -117,12 +117,12 @@
     margin: 0;
     box-sizing: border-box;
     color: #000;
-    background: #fff;
+    background: transparent;
     font-family: sfpro;
     user-select: none;
 }
 
-p, h1, h2, h3, h4, h5, h6, a, li, ul, img, input
+p, h1, h2, h3, h4, h5, h6, a, li, ul, img, input, span
 {
     text-decoration: none;
     color: #2D3748;
@@ -135,13 +135,5 @@ p, h1, h2, h3, h4, h5, h6, a, li, ul, img, input
 
 html, body
 {
-    overflow: hidden;
+    overflow-y: hidden;
 }
-
-/*html, body
-{
-    height: 100%;
-    width: 100%;
-    max-width: 100vw;
-    max-height: 80vh;
-}*/

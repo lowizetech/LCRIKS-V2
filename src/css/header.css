@@ -13,7 +13,6 @@ header
     padding-bottom: 10px;
 
     background: white;
-    border-radius: 0 0 13px 13px;
 
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
@@ -31,7 +30,7 @@ header
     align-items: center;
     justify-content: space-between;
 
-    padding-block: 20px;
+    padding-block: 10px;
 }
 
 .input-field
@@ -107,6 +106,17 @@ nav > a
     position: relative;
     z-index: 1;
     transition: color 200ms ease;
+
+    z-index: 999;
+}
+
+.slider-nav
+{
+    position: absolute;
+    background: #e2e8f0;
+    border-radius: 5px;
+    transition: left 0.3s ease, top 0.3s ease, width 0.3s ease, height 0.3s ease;
+    z-index: 0;
 }
 
 nav > a:hover
@@ -114,13 +124,9 @@ nav > a:hover
     background: var(--gray-300);
 }
 
-.nav-indicator
+nav > a:active
 {
-    position: absolute;
-    background: var(--gray-300);
-    transition: all 200ms ease;
-    z-index: 0;
-    border-radius: 5px;
+    cursor: grabbing;
 }
 
 .editing-container
@@ -144,8 +150,6 @@ nav > a:hover
     width: 6.5vw;
     text-align: right;
 }
-
-
 
 
 

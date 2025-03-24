@@ -1,0 +1,62 @@
+.margin-top
+{
+	width: 100%;
+	height: 14.5vh;
+}
+
+.scrollable-sections
+{
+	width: 100%;
+	height: calc(100vh - 14.5vh);
+	overflow-y: auto;
+}
+
+.scrollable-sections section
+{
+	width: 100%;
+	height: calc(100vh - 14vh);
+	padding-inline: 2vw;
+	background: #e2e8f0;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+}
+
+.scrollable
+{
+	height: 80vh;
+	overflow-y: auto;
+	padding: 20px 40px 40px 0;
+}
+
+section:not(#about, #certificates) h1
+{
+	font-size: 85px;
+	font-weight: 900;
+	line-height: 1;
+}
+
+section:not(#about, #certificates) h2
+{
+	font-size: 40px;
+	font-style: italic;
+	font-weight: 900;
+
+	margin-top: 70px;
+	margin-bottom: 15px;
+}
+
+section:not(#about, #certificates) p
+{
+	margin-top: 50px;
+	font-size: 30px;
+}
+
+section:not(#about, #certificates) li
+{
+	font-size: 30px;
+	margin-block: 10px;
+	margin-left: 70px;
+}
