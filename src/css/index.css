@@ -111,6 +111,13 @@
     font-style: italic;
 }
 
+@font-face
+{
+    font-family: "robotoflex";
+    src: url("./fonts/ROBOTO FLEX/ROBOTO FLEX.ttf") format("truetype");
+    font-style: normal;
+}
+
 *,*::before,*::after
 {
     padding: 0;
@@ -118,7 +125,7 @@
     box-sizing: border-box;
     color: #000;
     background: transparent;
-    font-family: sfpro;
+    font-family: sfpro, Arial, system-ui;
     user-select: none;
 }
 

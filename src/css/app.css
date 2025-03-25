@@ -5,18 +5,25 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.5);
+
+    background: rgba(0,0,0,0.2);
 
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 7vh;
 }
 
 .modal
 {
+
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
+    background: white;
+
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .modal > div
@@ -25,11 +32,93 @@
     justify-content: space-between;
 }
 
+.modal > div > *
+{
+    border: none;
+    outline: none;
+    background: green;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.modal > div > *:hover
+{
+    transition: transform 200ms ease-in-out;
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.modal > div > *:active
+{
+    transition: transform 200ms ease-in-out;
+    transform: scale(0.98);
+    cursor: grabbing;
+}
+
+.modal > div #save
+{
+    background: oklch(0.627 0.194 149.214);
+}
+
+.modal > div #cancel
+{
+    background: oklch(0.556 0 0);
+}
+
+.modal > div #delete
+{
+    background: oklch(0.577 0.245 27.325);
+}
+
 .modal > textarea
 {
     width: 70vw;
     height: 50vh;
-    padding: 10px;
+    resize: none;
+
+    font-size: 30px;
+
+    padding: 20px;
+    border: 3px solid #e2e8f0;
+    border-radius: 7px;
+    outline: none;
+}
+
+.add-buttons
+{
+    display: flex;
+    gap: 30px;
+}
+
+.add-buttons > *
+{
+    border: none;
+    outline: none;
+    padding: 14px 25px;
+    background: oklch(0.87 0 0);
+    color: #2D3748;
+    font-size: 25px;
+    font-weight: 900;
+    border-radius: 5px;
+
+    margin-block: 50px;
+}
+
+.add-buttons > *:hover
+{
+    cursor: pointer;
+    transform: scale(1.06);
+    transition: transform 200ms ease-in-out;
+}
+
+.add-buttons > *:active
+{
+    cursor: grabbing;
+    transform: scale(0.97);
+    transition: transform 200ms ease-in-out;
 }
 
 .gotoup

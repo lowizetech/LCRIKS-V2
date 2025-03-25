@@ -146,6 +146,7 @@ const App = () =>
 
     const handleAdding = async(section_id, type) =>
     {
+
     	if (!editing) return;
 
     	const createNewElement = (type) => (
@@ -159,6 +160,11 @@ const App = () =>
 
     	await savingMode(updatedSections, section_id);
     	setEditingIndex(null);
+
+    	// THIS CODE RIGHT HERE, CHATGPT 
+    	//document.querySelectorAll("section .scrollable").forEach((element) => element.scrollTo({ top: element.scrollHeight }));
+    	const targetedScrollable = document.getElementById(`scrollable-${section_id}`);
+		if (targetedScrollable) targetedScrollable.scrollTo({ top: targetedScrollable.scrollHeight });
     }
 
     const savingMode = async(updatedSections, section_id) =>
@@ -177,7 +183,6 @@ const App = () =>
     			headers: { "Content-Type": "application/json" },
     			body: JSON.stringify(updatedSection),
     		});
-    		console.log(response);
     		if (!response.ok) alert(`Failed to update section: ${response.statusText}`);
     	}
     	catch (err)
@@ -197,11 +202,11 @@ const App = () =>
 				{sections.map((section) => (
 					<section key={section.id} id={section.id_name}>
 						<img src="/imgs/birth.png" width="600" height="920"/>
-						<div className="scrollable">
+						<div className="scrollable" id={`scrollable-${section.id}`}>
 							{section.content?.map((item, index) => (
 								<div key={index} onClick={() => handleEditing(section.id, index, item.text || item.items?.join("\n"))}>
-									{item.type === "h1" && <h1>{item.text}</h1>}
-									{item.type === "h2" && <h2>{item.text}</h2>}
+									{item.type === "h1" && <h1>{item.text.toUpperCase()}</h1>}
+									{item.type === "h2" && <h2>{item.text.toUpperCase()}</h2>}
 									{item.type === "p" && <p>{item.text}</p>}
 									{item.type === "ul" && <ul>{item.items.map((li, i) => <li key={i}>{li}</li>)}</ul>}
 									{item.type === "ol" && <ol>{item.items.map((li, i) => <li key={i}>{li}</li>)}</ol>}
@@ -209,11 +214,11 @@ const App = () =>
 							))}
 
 							{editing && (
-								<div>
-									<button onClick={() => handleAdding(section.id, "h2")}>Add H2</button>
-									<button onClick={() => handleAdding(section.id, "p")}>Add Paragraph</button>
-									<button onClick={() => handleAdding(section.id, "ul")}>Add Bullet List</button>
-									<button onClick={() => handleAdding(section.id, "ol")}>Add Numbered List</button>
+								<div className="add-buttons">
+									<button onClick={() => handleAdding(section.id, "h2")}>ADD H2</button>
+									<button onClick={() => handleAdding(section.id, "p")}>ADD PARAGRAPH</button>
+									<button onClick={() => handleAdding(section.id, "ul")}>ADD BULLET LIST</button>
+									<button onClick={() => handleAdding(section.id, "ol")}>ADD NUMBERED LIST</button>
 								</div>
 							)}
 						</div>
@@ -224,11 +229,11 @@ const App = () =>
 			{editingIndex && (
 				<div className="modal-container">
 					<div className="modal">
-						<textarea value={newText} onChange={(e) => setNewText(e.target.value)}/>
+						<textarea value={newText} spellcheck="false" onChange={(e) => setNewText(e.target.value)}/>
 						<div>
-	              			<button onClick={handleSaving}>Save</button>
-	             			<button onClick={handleCancelling}>Cancel</button>
-	             			<button onClick={handleDeleting} style={{ background: "red", color: "white" }}>Delete</button>
+	              			<button id="save" onClick={handleSaving}>SAVE</button>
+	             			<button id="cancel" onClick={handleCancelling}>CANCEL</button>
+	             			<button id="delete" onClick={handleDeleting}>DELETE</button>
 	            		</div>
 					</div>
 				</div>

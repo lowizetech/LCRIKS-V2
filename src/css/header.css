@@ -19,7 +19,7 @@ header
 
 .lcr-a
 {
-    font-family: heading;
+    font-family: heading, Arial, system-ui;
     font-weight: 800;
     font-size: 40px;
 }
@@ -216,4 +216,12 @@ input:checked + .slider:before
 {
     transform: translateX(1.4em);
     background-color: #fff;
+}
+
+.logos
+{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
 }
